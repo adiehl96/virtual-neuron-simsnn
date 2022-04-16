@@ -6,7 +6,9 @@ These instructions will guide you through running the experiments presented in t
 2. In the docker container, navigate to the root:
 	cd root
 
-3. In a separate terminal window, navigate to the directory where this file was unzipped. 
+3. In a separate terminal window, clone the virtual neuron GitHub repository and navigate to it:
+	git clone https://github.com/prasannadate/virtual-neuron.git 
+	cd virtual-neuron
 
 4. Use 'docker cp' command to copy the unzipped files to the root directory in the docker container:
 	docker cp VirtualNeuron.py <docker-container-id>:/root/
