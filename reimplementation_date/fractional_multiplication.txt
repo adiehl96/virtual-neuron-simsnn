@@ -1,0 +1,38 @@
+frac x frac multiplication
+
+        .1011
+        .0111
+         ----
+        .1011
+       .1011
+      .1011
+       ------
+     .0100
+
+int x frac multiplication
+
+        0101
+       .1000
+       -----
+       ...
+       -----
+       010.1000
+
+int x frac multiplication
+
+        1010
+       .1000
+       -----
+       ...
+       -----
+       0101.0000
+
+dec x dec multiplication
+
+        1010.1000
+            .1000
+            -----
+            ...
+            -----
+     0101.01000000
+
